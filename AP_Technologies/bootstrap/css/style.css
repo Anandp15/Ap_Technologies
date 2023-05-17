@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo-img{
+    border-radius: 50%;
+    margin-top: -5px;
+    box-shadow: 0 0 3px black;
+}
+.bg-dark-green , .btn-dark-green {
+    background-color: #132a24 !important;
+}
+.bg-light-green {
+    background-color: #50a08c ;
+}
+.text-dark-green{
+    color: #132a24 !important;
+}
+.bg-dark , .btn-dark{
+    background: linear-gradient(45deg,black,darkslategrey);!important;
+}
+.landing-section{
+    background: white url("../../images/bg-image.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.landing-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.landing-wrapper h1{
+    font-size: 60px;
+}
+.landing-wrapper p{
+    font-size: 20px;
+}
+.fa-play-circle{
+    color: deepskyblue;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    animation: glow-icon 0.8s infinite linear;
+}
+@keyframes glow-icon {
+    0% , 100%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.08,1.08);
+        box-shadow: 0 0 10px white;
+        border: 3px dotted white;
+    }
+}
+.intro-icon{
+    background-color: black;
+    color: #50a08c ;
+    border-radius: 50%;
+    box-shadow:  0 03px black;
+}
+.gallery-img{
+    border-radius: 50px;
+    border: 5px solid #50a08c !important;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+}
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+}
+.btn-outline-white{
+    border-radius: 50px;
+    border: 2px solid #50a08c !important;
+}
+.btn-outline-white:hover{
+    border: 2px solid #50a08c !important;
+    color: white !important;
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 10px #50a08c;
+}
+.trainer-img{
+    box-shadow: 0 0 10px #50a08c;
+    margin-top: -50px;
+}
+.trainer-card{
+    border-radius: 10px !important;
+    transition: 0.5s;
+    background-color: #50a08c;
+}
+.trainer-card:hover {
+    transform: translateY(-20px);
+    background: linear-gradient(45deg, black, darkslategrey);
+!important;
+    color: #50a08c !important;
+    box-shadow: 0 0 10px #50a08c;
+}
+.google-img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.btn-one{
+    border-radius: 50px;
+    border: 2px solid #50a08c !important;
+    background: linear-gradient(45deg,black,darkslategrey);
+}
+.btn-one:hover{
+    border: 2px solid #50a08c !important;
+    background: linear-gradient(45deg,black,darkslategrey);
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 10px #50a08c;
+}
